@@ -23,7 +23,11 @@ function App() {
       <button className={"btn btn-color-2"}>Download CV</button>
       <button className={'btn btn-color-1'}>Contact Info</button>
       </div>
+<div id='socials-container'>
+  <img src="../src/assets/linkedin.png" alt="My Linkdlin Profile" className="icon"/>
+  <img src="../src/assets/github.png" alt="github" className="icon"/>
 
+</div>
     </div>
   </div>
 </section>
