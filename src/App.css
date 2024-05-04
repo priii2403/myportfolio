@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.rounded-image {
+  border-radius: 50%;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -564,6 +566,7 @@ footer p {
     height: 275px;
     margin: 0 auto 2rem;
   }
+  
   .about-containers {
     margin-top: 1rem;
   }
