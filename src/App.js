@@ -26,48 +26,46 @@ function App() {
     <div>
       <Header />
       <main>
-        <section id="about" className="full-screen-section center-content ">
-          <div className="about-content">
-            <div className="image-container">
-              <img
-                src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="Profile"
-              />
+        <section id="profile">
+          <div className="section__pic-container">
+            <img
+              src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt="Profile"
+            />
+          </div>
+          <div className="section__text">
+            <p className="section__text__p1">Hello, I'm</p>
+            <h1 className="title">Priyanshi Vastani</h1>
+            <p className="section__text__p2">Software Developer</p>
+            <div className="btn-container">
+              <button className="btn btn-color-2" onClick={handleDownloadCV}>
+                Download CV
+              </button>
+              <button
+                className="btn btn-color-1"
+                onClick={() => (window.location.href = "./#contact")}
+              >
+                Contact Info
+              </button>
             </div>
-            <div className="section__text">
-              <p className="section__text__p1">Hello, I'm</p>
-              <h1 className="title">Priyanshi Vastani</h1>
-              <p className="section__text__p2">Software Developer</p>
-              <div className="btn-container">
-                <button className="btn btn-color-2" onClick={handleDownloadCV}>
-                  Download CV
-                </button>
-                <button
-                  className="btn btn-color-1"
-                  onClick={() => (window.location.href = "./#contact")}
-                >
-                  Contact Info
-                </button>
-              </div>
-              <div id="socials-container">
-                <img
-                  src={linkedin}
-                  alt="My LinkedIn profile"
-                  className="icon"
-                  onClick={redirectToLinkedIn}
-                />
+            <div id="socials-container">
+              <img
+                src={linkedin}
+                alt="My LinkedIn profile"
+                className="icon"
+                onClick={redirectToLinkedIn}
+              />
 
-                <img
-                  src={whatsApp}
-                  alt=""
-                  className="icon"
-                  onClick={navigateToWhatsApp}
-                />
-              </div>
+              <img
+                src={whatsApp}
+                alt=""
+                className="icon"
+                onClick={navigateToWhatsApp}
+              />
             </div>
           </div>
         </section>
-        <section id="about" className="full-screen-section  ">
+        <section id="about">
           <p className="section__text__p1">Get To Know More</p>
           <h1 className="title">About Me</h1>
           <div className="section-container">
@@ -82,10 +80,10 @@ function App() {
               <div className="about-containers">
                 <div className="details-container">
                   <img
-                    style={{ marginLeft: "150px" }}
+               
                     src={Experience}
                     alt="Experience"
-                    className="icon"
+                    className="icon-tag"
                   />
                   <h3>Experience</h3>
                   <p>
@@ -96,10 +94,10 @@ function App() {
                 </div>
                 <div className="details-container">
                   <img
-                    style={{ marginLeft: "150px" }}
+                    
                     src={Education}
                     alt=""
-                    className="icon"
+                    className="icon-tag"
                   />
                   <h3>Education</h3>
                   <p>Bachelor- B.Tech(BE)</p>
@@ -229,7 +227,7 @@ function App() {
           <img src={Arrow} alt="" className="icon arrow" />
         </section>
 
-        <section id="contact" className="full-screen-section">
+        <section id="contact">
           <p className="section__text__p1"> Get in Touch</p>
           <h1 className="title">Contact Me</h1>
           <div className="contact-info-upper-container">
@@ -255,14 +253,8 @@ function App() {
         </section>
 
         <footer>
-          <script src="script.js"></script>
-          <script src="script.js"></script>
-          <nav>
-
-
-          </nav>
-          <p>Copyright © 2023 Priyanshi Vastani. All Rights Reserved.</p>
-
+          <nav></nav>
+          <p>Copyright &#169; 2023 Priyanshi Vastani. All Rights Reserved.</p>
         </footer>
       </main>
     </div>

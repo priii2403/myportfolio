@@ -90,72 +90,7 @@ function Header() {
           </div>
         )}
       </nav>
-      {/* <nav id="desktop-nav">
-        <div className="logo">Priyanshi Vastani</div>
-        <div>
-          <ul class="nav-links">
-            <li>
-              <button onClick={() => scrollToSection("about")}>About</button>
-            </li>
-            <li>
-              <button onClick={() => scrollToSection("experience")}>
-                Experience
-              </button>
-            </li>
-            <li>
-              <button onClick={() => scrollToSection("contact")}>
-                Contact
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
-      {/* <nav id="hamburger-nav">
-        <div className="logo">Priyanshi Vastani</div>
-        <div className="hamburger-menu">
-        <div className={`hamburger-icon ${menuOpen ? 'open' : ''}`} onClick={() => {toggleMenu()}}>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
-
-        <div className={`menu-links ${menuOpen ? 'open' : ''}`} onClick={() => {toggleMenu()}}>
-          <ul>
-            <li>
-              <button
-                onClick={() => {
-                  scrollToSection("about");
-                  toggleMenu();
-                }}
-              >
-                About
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() => {
-                  scrollToSection("experience");
-                  toggleMenu();
-                }}
-              >
-                Experience
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={() => {
-                  scrollToSection("contact");
-                  toggleMenu();
-                }}
-              >
-                Contact
-              </button>
-            </li>
-          </ul>
-        </div>
-      </nav> */}
+   
     </header>
   );
 }
