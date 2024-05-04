@@ -82,7 +82,7 @@ function App() {
               <div className="about-containers">
                 <div className="details-container">
                   <img
-                    style={{ marginLeft: "110px" }}
+                    style={{ marginLeft: "150px" }}
                     src={Experience}
                     alt="Experience"
                     className="icon"
@@ -96,7 +96,7 @@ function App() {
                 </div>
                 <div className="details-container">
                   <img
-                    style={{ marginLeft: "110px" }}
+                    style={{ marginLeft: "150px" }}
                     src={Education}
                     alt=""
                     className="icon"
