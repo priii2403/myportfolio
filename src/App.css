@@ -15,6 +15,9 @@
 .Logo {
   background-image: url(../src/assets/linkedin.png);
 }
+.about{
+  position: relative;
+}
 .full-screen-section {
   padding-top: 4vh;
   height: 96vh;
@@ -32,11 +35,6 @@
   padding-top: 6vh;
 }
 
-.section__pic-container {
-  height: 400px;
-  width: 400px;
- 
-}
 .about {
   display: flex;
   justify-content: center;
@@ -52,7 +50,7 @@
 }
 .image-container {
   padding-right: 50px; /* Add padding to the right to create space */
-  margin-bottom: 20px; /* Add spacing between image and text */
+  margin-top: 20px; /* Add spacing between image and text */
 }
 
 .image-container img {
@@ -62,7 +60,7 @@
 }
 
 .text-container {
-  margin-top: 90px; /* Adjust margin-top as needed */
+  margin-top: 10px; /* Adjust margin-top as needed */
   padding-left: 15px; /* Add padding to the left to create space */
 }
 .text-container h2 {
@@ -107,6 +105,7 @@
     transform: rotate(360deg);
   }
 }
+/* GENERAL */
 /* GENERAL */
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
@@ -281,14 +280,14 @@ section {
 .section__pic-container {
   display: flex;
   height: 400px;
-  width: 400px;
+  width: 2200px;
   margin: auto 0;
 }
 
 .section__text {
   align-self: center;
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 90px;
 }
 
 .section__text p {
@@ -335,7 +334,7 @@ section {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
+
   border-radius: 2rem;
 }
 
@@ -386,6 +385,7 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+
 }
 
 .about-containers,
@@ -411,6 +411,7 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+ 
 }
 
 .section-container {
@@ -418,11 +419,11 @@ section {
   height: 80%;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
+} */
 
 /* EXPERIENCE SECTION */
 
@@ -441,6 +442,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .article-container {
