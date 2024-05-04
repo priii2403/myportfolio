@@ -255,10 +255,14 @@ function App() {
         </section>
 
         <footer>
-          {/* <script src="script.js"></script>
-          <script src="script.js"></script> */}
-          <nav></nav>
+          <script src="script.js"></script>
+          <script src="script.js"></script>
+          <nav>
+
+
+          </nav>
           <p>Copyright © 2023 Priyanshi Vastani. All Rights Reserved.</p>
+
         </footer>
       </main>
     </div>
