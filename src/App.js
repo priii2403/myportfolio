@@ -8,13 +8,13 @@ import Arrow from "../src/assets/arrow.png";
 import CheckMark from "../src/assets/checkmark.png";
 import Education from "../src/assets/education.png";
 import EmailIcon from "../src/assets/email.png";
-import resumePDF from '../src/assets/resume.pdf';
+import resumePDF from "../src/assets/resume.pdf";
 
 function handleDownloadCV() {
   window.open(resumePDF);
 }
 function redirectToLinkedIn() {
-  window.location.href = 'https://www.linkedin.com/feed/';
+  window.location.href = "https://www.linkedin.com/feed/";
 }
 const navigateToWhatsApp = () => {
   const phoneNumber = "917265079745";
@@ -39,15 +39,30 @@ function App() {
               <h1 className="title">Priyanshi Vastani</h1>
               <p className="section__text__p2">Software Developer</p>
               <div className="btn-container">
-              <button className="btn btn-color-2" onClick={handleDownloadCV}>Download CV</button>
-              <button className="btn btn-color-1" onClick={() => window.location.href = './#contact'}>
-  Contact Info
-</button>
+                <button className="btn btn-color-2" onClick={handleDownloadCV}>
+                  Download CV
+                </button>
+                <button
+                  className="btn btn-color-1"
+                  onClick={() => (window.location.href = "./#contact")}
+                >
+                  Contact Info
+                </button>
               </div>
               <div id="socials-container">
-              <img src={linkedin} alt="My LinkedIn profile" className="icon" onClick={redirectToLinkedIn} />
-           
-                <img src={whatsApp} alt="" className="icon" onClick={navigateToWhatsApp}/>
+                <img
+                  src={linkedin}
+                  alt="My LinkedIn profile"
+                  className="icon"
+                  onClick={redirectToLinkedIn}
+                />
+
+                <img
+                  src={whatsApp}
+                  alt=""
+                  className="icon"
+                  onClick={navigateToWhatsApp}
+                />
               </div>
             </div>
           </div>
@@ -57,42 +72,52 @@ function App() {
           <h1 className="title">About Me</h1>
           <div className="section-container">
             <div className="section__pic-container">
-              <img src='https://plus.unsplash.com/premium_photo-1673976275849-986056b83cae?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' alt="" className="about-pic" />
+              <img
+                src="https://plus.unsplash.com/premium_photo-1673976275849-986056b83cae?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+                className="about-pic"
+              />
             </div>
             <div className="about-details-container">
-              <div  className="about-containers">
-                <div  className="details-container">
-                  <img  style={{marginLeft:'140px'}}src={Experience} alt="Experience" className="icon" />
-                  <h3 >Experience</h3>
+              <div className="about-containers">
+                <div className="details-container">
+                  <img
+                    style={{ marginLeft: "110px" }}
+                    src={Experience}
+                    alt="Experience"
+                    className="icon"
+                  />
+                  <h3>Experience</h3>
                   <p>
-                    "1.5+ years "
+                    "2.5+ years "
                     <br />
-                    "Data Analyst"
+                    "Software Developer"
                   </p>
                 </div>
                 <div className="details-container">
-                  <img  style={{marginLeft:'0px'}} src={Education} alt="" className="icon" />
+                  <img
+                    style={{ marginLeft: "110px" }}
+                    src={Education}
+                    alt=""
+                    className="icon"
+                  />
                   <h3>Education</h3>
-                  <p>Bachelor- B.Tech(BE)"</p>
+                  <p>Bachelor- B.Tech(BE)</p>
+                  <p>Information Technology</p>
                 </div>
               </div>
               <div className="text-container">
                 <p>
-                  "As a student"
-                  <b> Data Analyst</b>
-                  at OD-OS GmbH, I contribute to medical device innovation while
-                  pursuing an M.Sc. in Artificial Intelligence at Brandenburg
-                  Technical University(BTU- Cottbus) in Germany. With a B.Tech.
-                  in
-                  <b>Computer Engineering</b>
-                  and extensive online coursework, I excel in
-                  <b>Data Analysis</b>,<b>Visualization</b>,
-                  <b>Cloud computing</b>. Previous internships and experiences
-                  in corporate world at TWDI Infotech honed my skills in AWS,
-                  Python, and Data Engineering. Additionally, those experiences
-                  carved my skills in tools like Power BI and Tableau, I'm
-                  fluent in English and German, passionate about leveraging Data
-                  and AI for real-world impact.
+                  As a Developer Developed front-end UI using
+                  <b>React Native</b>,<b>Flutter</b>, and
+                  <b>JavaScript</b>
+                  for cross-platform iOS and Android apps. Employed React Native
+                  debugging tools like
+                  <b>ShakeBug</b>
+                  for bug detection and resolution. Successfully integrated
+                  features like camera module, push notifications, and social
+                  media login. Managed production and deployment on iOS,
+                  leveraging CLI for App Store submission
                 </p>
               </div>
             </div>
@@ -102,7 +127,6 @@ function App() {
         <section id="experience" className="full-screen-section">
           <p className="section__text__p1">Explore My</p>
           <h1 className="title">Experience</h1>
-
           <div className="experience-details-container">
             <div className="about-containers">
               <div className="details-container">
@@ -110,71 +134,95 @@ function App() {
                 <div className="article-container">
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>PowerBI</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>React Native</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>Tableau</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>ReactJS</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>Python</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>NextJs</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>AI</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>TypeScript</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>ML</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                   <article>
                     <img src={CheckMark} alt="" className="icon" />
-                    <h3>Sci-kit learn</h3>
-                    <p>Experienced</p>
+                    <div>
+                      <h3>Firebase</h3>
+                      <p>Experienced</p>
+                    </div>
                   </article>
                 </div>
               </div>
-            <div className="details-container">
-              <h2 className="experience-sub-title">Data analysis</h2>
-              <div className="article-container">
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>PowerBI</h3>
-                  <p>Experienced</p>
-                </article>
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>Tableau</h3>
-                  <p>Experienced</p>
-                </article>
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>Python</h3>
-                  <p>Experienced</p>
-                </article>
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>AI</h3>
-                  <p>Experienced</p>
-                </article>
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>ML</h3>
-                  <p>Experienced</p>
-                </article>
-                <article>
-                  <img src={CheckMark} alt="" className="icon" />
-                  <h3>Sci-kit learn</h3>
-                  <p>Experienced</p>
-                </article>
+              <div className="details-container">
+                <h2 className="experience-sub-title">others</h2>
+                <div className="article-container">
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>MongoDb</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>Sql</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>NodeJs</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>Redux</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>Flutter</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img src={CheckMark} alt="" className="icon" />
+                    <div>
+                      <h3>AWS</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                </div>
               </div>
-            </div>
             </div>
           </div>
 
@@ -193,16 +241,14 @@ function App() {
               />
               <p>
                 <a href="mailto:vastanipriyanshi24@gmail.com">
-                vastanipriyanshi24@gmail.com
+                  vastanipriyanshi24@gmail.com
                 </a>
               </p>
             </div>
             <div className="contact-info-container">
               <img src={linkedin} alt="" className="icon contact-icon" />
               <p>
-                <a href="https://www.linkedin.com/feed/">
-                  LinkedIn
-                </a>
+                <a href="https://www.linkedin.com/feed/">LinkedIn</a>
               </p>
             </div>
           </div>
@@ -212,7 +258,7 @@ function App() {
           {/* <script src="script.js"></script>
           <script src="script.js"></script> */}
           <nav></nav>
-          <p >Copyright © 2023 Ayushi Bhungaliya. All Rights Reserved.</p>
+          <p>Copyright © 2023 Priyanshi Vastani. All Rights Reserved.</p>
         </footer>
       </main>
     </div>
