@@ -96,12 +96,12 @@ nav {
   background-color: #ffffff;
   display: flex;
   justify-content: space-evenly;
-  margin-top: 40px;
+  /* margin-top: 0px; */
   /* Add your other styles here */
 }
 .mobile-menu {
   position: absolute;
-  top: 60px; /* Adjust as needed */
+  top: 120px; /* Adjust as needed */
   right: 0; /* Align to the right */
   width: 200px; /* Set the width of the menu */
   background-color: #ffffff;
