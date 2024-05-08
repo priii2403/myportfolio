@@ -326,7 +326,7 @@ section {
 .icon-tag{
   cursor: pointer;
   height: 2rem;
-  margin-left: 200px;
+  /* margin-left: 200px; */
 }
 /* BUTTONS */
 
@@ -617,7 +617,7 @@ footer p {
   .icon-tag{
     cursor: pointer;
     height: 2rem;
-    margin-right: 100px;
+    /* margin-right: 100px; */
   }
   .section__pic-container {
     width: auto;
