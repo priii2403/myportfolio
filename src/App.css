@@ -576,7 +576,7 @@ footer p {
   #contact,
   footer {
     height: 40vh;
-    margin-top: 100vh;
+    /* margin-top: 100vh; */
   }
   .tag{
     margin-left: 0px;
