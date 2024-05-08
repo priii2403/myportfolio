@@ -85,7 +85,7 @@ function App() {
                
                     src={Experience}
                     alt="Experience"
-                    className="icon-tag"
+                    className="icon"
                   />
                   <h3>Experience</h3>
                   <p>
@@ -99,7 +99,7 @@ function App() {
                     
                     src={Education}
                     alt=""
-                    className="icon-tag"
+                    className="icon"
                   />
                   <h3>Education</h3>
                   <p>Bachelor- B.Tech(BE)</p>
