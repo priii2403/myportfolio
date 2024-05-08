@@ -123,7 +123,7 @@ function App() {
           </div>
           <img src={Arrow} alt="" className="icon arrow" />
         </section>
-        <section id="experience" className="full-screen-section">
+        <section id="experience" >
           <p className="section__text__p1">Explore My</p>
           <h1 className="title">Experience</h1>
           <div className="experience-details-container">
