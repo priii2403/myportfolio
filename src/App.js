@@ -122,7 +122,7 @@ function App() {
               </div>
             </div>
           </div>
-          <img src={Arrow} alt="" className="icon arrow" />
+        
         </section>
         <section id="experience" >
           <p className="section__text__p1">Explore My</p>
@@ -226,7 +226,7 @@ function App() {
             </div>
           </div>
 
-          <img src={Arrow} alt="" className="icon arrow" />
+    
         </section>
 
         <section id="contact">
